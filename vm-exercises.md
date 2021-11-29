@@ -18,23 +18,17 @@
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
 Apply the visualization elements of color and boldness to the visuals and headlines to enhance the effectiveness of visuals. 
 
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
 Visualization techniques are used to help guide a reader’s eyes on where to look. Elements like color selection, font size, and font boldness within the visual and headline text are used to intentionally draw attention, which allows the reader to focus on the key takeaways presented. Being able to apply these elements will ensure your analysis and visualizations communicate the information you want clearly without distraction from other relevant - but less important - details within a chart’s immediate area.
 
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
-
-You are doing an analysis on Westminster and Camden neighborhoods in London. 
-
-Using the `ex-1-initial.twbx` file, follow these steps to highlight them for your analysis.
+You are doing an analysis on Westminster and Camden neighborhoods in London. Using the `ex-1-initial.twbx` file, follow these steps to highlight them for your analysis.
 - Step 1: Remove the existing pill (Neighborhoods) on the color marks to change the bar colors back to monochrome.
 - Step 2: Create a calculated field called "Is Westminster or Camden?" using IF/THEN and OR statements to assign TRUE to neighborhoods Westminster and Camden and FALSE to all other neighborhoods.
 - Step 3: Apply the "Is Westminster or Camden?" pill to the marks shelf. 
@@ -43,15 +37,12 @@ Using the `ex-1-initial.twbx` file, follow these steps to highlight them for you
 - Step 6: Bold the colored text in the title.
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
 
 Resort the neighborhoods so that it is ranked in descending order by total # of reviews. 
 - Q: Which neighborhood is #1?  A: Westminster
 - Q: Is this neighborhood one of the highlighted neighborhoods (as indicated in the title)?  A: Yes
 
 #### End goal:
-
-*Add an image of the final visualization here.*
 
 ![ex-1-sol-image](https://user-images.githubusercontent.com/94759820/143809876-a34ace1f-20f1-4559-959d-de9e1b15e7ff.JPG)
 
