@@ -78,7 +78,6 @@ You are doing an analysis on Shared Room spaces in London for Airbnb. Using the 
 
 #### Exercise question:
 
-Resort the neighborhoods so that it is ranked in descending order by total # of reviews. 
 - Q: Which host has the highest avg. # of reviews per month?  A: Isabel
 - Q: What's the avg. # of reviews this person gets?  A: 4.940
 
