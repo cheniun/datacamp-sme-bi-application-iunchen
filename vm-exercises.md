@@ -9,21 +9,21 @@
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [X] Add datasets used to the `datasets/` folder
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
+- [X] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
+- [X] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
 
 #### Learning Objective
 
-Apply the visualization elements of color and boldness to the visuals and headlines to enhance the effectiveness of visuals. 
+Apply elements of color through use of color palette selection, categorical color selection, and font boldness to a bar chart and its headline to draw attention to key takeaways.
 
 
 #### Context
 
-Visualization techniques are used to help guide a reader’s eyes on where to look. Elements like color selection, font size, and font boldness within the visual and headline text are used to intentionally draw attention, which allows the reader to focus on the key takeaways presented. Being able to apply these elements will ensure your analysis and visualizations communicate the information you want clearly without distraction from other relevant - but less important - details within a chart’s immediate area.
+Visualization techniques are used to help guide a reader’s eyes on where to look. Elements like color selection and font boldness within the visual and headline text are used to intentionally draw attention, which allows the reader to focus on the key takeaways presented. Being able to apply these elements will ensure your analysis and visualizations communicate the information you want clearly without distraction from other relevant - but less important - details within a chart’s immediate area.
 
 
 #### Steps to be executed by the student (max 6)
@@ -51,34 +51,38 @@ Resort the neighborhoods so that it is ranked in descending order by total # of 
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [X] Add datasets used to the `datasets/` folder
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-2-intial.twbx` or `ex-2-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-2-sol.twbx` or `ex-2-sol.pbix`
+- [X] **Initial**: Add file to the `exercises/`  folder with the name `ex-2-intial.twbx` or `ex-2-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
+- [X] **Solution**: Add file to the `exercises/`  folder with the name `ex-2-sol.twbx` or `ex-2-sol.pbix`
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+Apply elements of color through use of color palette selection, sequential color selection, and font boldness to a scatterplot and its headline to draw attention to key information.
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+Visualization techniques are used to help guide a reader’s eyes on where to look. Elements like using sequential color palettes for numeric data within the visual and headline text are used to intentionally draw attention, which allows the reader to focus on the key takeaways presented. Being able to apply these elements will ensure your analysis and visualizations communicate the information you want clearly without distraction from other relevant - but less important - details within a chart’s immediate area.
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
-
-- Step 1
-- Step 2
-- Step 3
-- ...
+You are doing an analysis on Shared Room spaces in London for Airbnb. Using the `ex-2-initial.twbx` file, follow these steps to highlight key insights within the data:
+- Step 1: Remove the `Neighborhoods` pill on the color marks to change the plots back to monochrome.
+- Step 2: Change the `Reviews Per Month` pill from Dimension (blue) to Measure (green). 
+- Step 3: Apply the `Reviews Per Month` pill to the color mark shelf. 
+- Step 4: Change the aggregation type for `Reviews Per Month` from SUM to AVG, to indicate the avg # of reviews a host receives per month.
+- Step 5: Change the color palette from a cool theme to a warm color theme. 
+- Step 6: Since we are analyzing the host MARK, find the dot for Mark and apply that same color in the title where it says "Host Mark". Bold this part of the title.
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+
+Resort the neighborhoods so that it is ranked in descending order by total # of reviews. 
+- Q: Which host has the highest avg. # of reviews per month?  A: Isabel
+- Q: What's the avg. # of reviews this person gets?  A: 4.940
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+![image](https://user-images.githubusercontent.com/94759820/143815752-ed8a7da8-9e66-4bcd-b42e-c347b1d0961b.png)
 
